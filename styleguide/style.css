@@ -6,12 +6,13 @@
     scroll-behavior: smooth;
     overflow-x: hidden;
     overflow-y: auto;
+    color: #383434;
   
   }
   
   h1, a, h2, h3, h4{
     font-family: Poppins, sans-serif;
-    color: #00464F;
+    color: #383434;
     
   }
   
@@ -20,7 +21,7 @@
     color: white;
     font-weight: 300;
     font-style: normal;
-    color: #00464F;
+    color:#383434;
   }
   
   
@@ -34,7 +35,7 @@
   .asideWrapper {
       height: 100%;
       min-width: 20%;
-      background-color: #00464F;
+      background-color: #BA563E;
       position: fixed;
       flex-direction: column;
       justify-content: center;
@@ -108,7 +109,7 @@
     left: 20%;
     height: auto;
     max-width: 100%;
-    background-color: #E4F1F0;
+    background-color: #F8F7F7;
   }
 
   
@@ -120,7 +121,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    background-color: #E4F1F0;
+    background-color: #F8F7F7;
     margin-bottom: 50px;
     margin-left: 0px;
     overflow: hidden;
@@ -135,14 +136,14 @@
   
   .landingSection h1, h2 {
     font-size: 40px;
-    color: #00464F;
+    color: #383434;
     margin-left: 10%;
     font-family: proxima-nova, sans-serif;
   }
   
   .landingSection h3 {
     font-size: 20px;
-    color: #00464F;
+    color: #383434;
     margin-left: 10%;
     font-family: proxima-nova, sans-serif;
   }
@@ -150,7 +151,7 @@
   .landingSection p {
     font-size: 20px;
     line-height: 25px;
-    color: #00464F;
+    color: #383434;
     margin-left: 10%;
     margin-right: 10%;
     font-family: proxima-nova, sans-serif;
@@ -169,7 +170,6 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    background-color: #E4F1F0;
     margin-left: 5%;
     margin-bottom: 5%;
   }
@@ -178,7 +178,7 @@
     margin-bottom: 40px;
     margin-top: 60px;
     font-size: 40px;
-    color: #00464F;
+    color: #383434;
     text-align: left;
     font-family: proxima-nova, sans-serif;
     margin-left: 0%;
@@ -206,7 +206,7 @@
   }
   
   .white div p {
-    color:#548F93;
+    color: #383434;
     font-size: 20px;
     margin-left: 0%;
   }
@@ -239,16 +239,16 @@
     margin-bottom: 3%;
     font-size: 40px;
     width: 100%;
-    color: white;
+    color: #383434;
   }
   
   .logoSection img {
-    width: 100%;
+    width: 80%;
   }
   
   .logoSection h3 {
     font-size: 20px;
-    color: white;
+    color: #383434;
   }
   
   .logoSection hr {
@@ -258,21 +258,25 @@
   .logoHvid {
     margin-top: 30px;
     padding: 14px 16px;
-    width: 400px;
+    width: 100%;
   }
+
+  .logolight{  
+    background-color: #383434;
+   }
   
   .logoSection article {
     width: 35%;
   }
   
   .logoSection article h2 {
-    color: white;
+    color: #383434;
     margin: 10px 0;
     font-size: 40px;
   }
   
   .logoSection article h3 {
-    color: white;
+    color: #383434;
   }
   
   .logoSection article hr {
@@ -281,7 +285,7 @@
   }
   
   .logoSection article p {
-    color: white;
+    color: #383434;
     font-size: 20px;
     margin: 10px 0;
   }
@@ -291,7 +295,7 @@
   .codeEmbedLogo {
     position: relative;
     padding: 20px;
-    border-left: 3px solid #9CD9B9;
+    border-left: 3px solid #383434;
     background-image: linear-gradient(to right, rgb(236, 236, 236), white);
     margin-bottom: 40px;
     margin-left: 20%;
@@ -308,7 +312,7 @@
   }
   
   .logoSection .ptools h2 {
-    color: white;
+    color: #383434;
     margin-top: 60px;
     margin-bottom: 20px;
     font-size: 40px;
@@ -316,7 +320,7 @@
   }
   
   .logoSection .ptools h3 {
-    color: white;
+    color: #383434;
     margin-left: 20%;
   
   }
@@ -348,7 +352,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #E4F1F0;
     margin-left: 5%;
     font-family: proxima-nova, sans-serif;
     margin-top: 5%;
@@ -359,7 +362,7 @@
     margin-bottom: 3%;
     font-size: 40px;
     width: 100%;
-    color: #00464F;
+    color: #383434;
   }
   
   .knapperSection article {
@@ -367,13 +370,13 @@
   }
   
   .knapperSection article h2 {
-    color: #00464F;
+    color: #383434;
     margin: 10px 0;
     font-size: 40px;
   }
   
   .knapperSection article h3 {
-    color: #00464F;
+    color: #383434;
   }
   
   .knapperSection article hr {
@@ -382,7 +385,7 @@
   }
   
   .knapperSection article p {
-    color: #00464F;
+    color: #383434;
     font-size: 20px;
     margin: 10px 0;
   }
@@ -397,10 +400,11 @@
   }
   
   .knapperBorder .atomicheaderknapper {
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     margin-left: 5%;
     margin-top: 5%;
+    
   }
   
   
@@ -414,7 +418,7 @@
   }
   
   .knapperSection .ptools h2 {
-    color: #00464F;
+    color: #383434;
     margin-top: 60px;
     margin-bottom: 20px;
     font-size: 40px;
@@ -422,7 +426,7 @@
   }
   
   .knapperSection .ptools h3 {
-    color: #00464F;
+    color: #383434;
     margin-left: 20%;
   
   }
@@ -434,7 +438,7 @@
   }
   
   .knapperSection .ptools p {
-    color: #00464F;
+    color: #383434;
     font-size: 20px;
     margin: 10px 0;
   }
@@ -442,7 +446,7 @@
   .codeEmbed {
     position: relative;
     padding: 20px;
-    border-left: 3px solid #9CD9B9;
+    border-left: 3px solid #383434b2;
     background-image: linear-gradient(to right, rgb(236, 236, 236), white);
     margin-bottom: 40px;
     margin-left: 20%;
@@ -478,8 +482,28 @@
     display: block;
     padding: 20px 170px;
     color: white;
+    font-size: 22px;
     border-radius: 5px;
-    background-image: linear-gradient(to bottom, #00464F 0%, #242D3D 200%);
+    box-shadow: 2px 4px 8px #383434b2;
+    background-color: #BA563E;
+  
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+  }
+
+  .standardBtnBlue {
+    display: block;
+    padding: 20px 170px;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px #383434b2;
+    background-color: #5D7F8E;
+  
     border: none;
     text-align: center;
     text-decoration: none;
@@ -515,7 +539,7 @@
     margin-bottom: 3%;
     font-size: 40px;
     width: 100%;
-    color: #00464F;
+    color: #383434;
   }
   
   .typoSection article {
@@ -523,13 +547,13 @@
   }
   
   .typoSection article h2 {
-    color: #00464F;
+    color: #383434;
     margin-top: 10%;
     font-size: 40px;
   }
   
   .typoSection article h3 {
-    color: #00464F;
+    color: #383434;
     margin-top: 10%;
   }
   
@@ -538,7 +562,7 @@
   }
   
   .typoSection article p {
-    color: #00464F;
+    color: #383434;
     font-size: 20px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -571,7 +595,7 @@
   }
   
   .typoSection .ptools h2 {
-    color: #00464F;
+    color: #383434;
     margin-top: 60px;
     margin-bottom: 20px;
     font-size: 40px;
@@ -579,7 +603,7 @@
   }
   
   .typoSection .ptools h3 {
-    color: #00464F;
+    color: #383434;
     margin-left: 20%;
   
   }
@@ -591,7 +615,7 @@
   }
   
   .typoSection .ptools p {
-    color: #00464F;
+    color: #383434;
     font-size: 20px;
     margin: 10px 0;
   }
@@ -599,7 +623,7 @@
   .codeEmbed {
     position: relative;
     padding: 20px;
-    border-left: 3px solid #9CD9B9;
+    border-left: 3px solid #383434;
     background-image: linear-gradient(to right, rgb(236, 236, 236), white);
     margin-bottom: 40px;
     margin-left: 20%;
