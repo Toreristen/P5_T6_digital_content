@@ -342,6 +342,7 @@
   
   
   .knapperBorder {
+    background-color: #F0E7D4;
       padding-bottom: 5%;
       border-bottom: 2px solid white;
   }
@@ -518,8 +519,7 @@
   .typoBorder {
       padding-bottom: 5%;
       border-bottom: 2px solid white;
-      background-color: #E4F1F0;
-  }
+      }
   
   
   .typoSection {
@@ -528,7 +528,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #E4F1F0;
     margin-left: 5%;
     font-family: proxima-nova, sans-serif;
     margin-top: 5%;
@@ -643,7 +642,7 @@
   .inputBorder {
       padding-bottom: 5%;
       border-bottom: 2px solid white;
-      background-color: #00464F;
+      background-color: #383434;
   }
   
   
@@ -653,7 +652,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #00464F;
     margin-left: 5%;
     font-family: proxima-nova, sans-serif;
     margin-top: 5%;
