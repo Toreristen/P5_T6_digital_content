@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"></head>
+
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,400&display=swap"
         rel="stylesheet">
@@ -18,11 +22,12 @@
             <nav class="navWrapper">
                 <ul>
                     <li><a href="#landingSection">HOME</a></li>
+                    <li><a href="#moodboardSection">MOODBOARD</a></li>
                     <li><a href="#farveSection">FARVER</a></li>
                     <li><a href="#logoSection">LOGO</a></li>
                     <li><a href="#knapperSection">KNAPPER</a></li>
                     <li><a href="#typoSection">TYPOGRAFI</a></li>
-                    <li><a href="#inputSection">LOGIN SYSTEM</a></li>
+                    <li><a href="#inputSection">INPUT</a></li>
                     <li><a href="#ikonerSection">IKONER</a></li>
                     <li><a href="#navigationSection">NAVIGATION</a></li>
                     <li><a href="#uiPatternsSection">UI PATTERN</a></li>
@@ -32,7 +37,11 @@
         </aside>
         <main class="mainWrapper">
             <section class="landingSection" id="landingSection">
-                <img class="uclLogo" src="https://www.ucl.dk/Content/Logo/logo-horisontal-mg.svg" alt="">
+                <img class="uclLogo" src="ucllogo.png" alt="">
+                <br>
+                <br>
+                <br>
+                <br>
                 <h1>Retshjælpen Fyns Venner</h1>
                 <h3>UCL MMMO-F21 - Team 6</h3>
                 <br>
@@ -42,6 +51,14 @@
 
                 </p>
 
+            </section>
+            
+            <!--MOODBOARD-->
+            <section class="moodBoard">
+                <section class="moodboardSection" id="moodboardSection">
+                    <h1>MoodBoard</h1>
+                    <img src="moodboard.png" alt="moodBoard">
+                </section>
             </section>
 
 
@@ -116,7 +133,7 @@
                             <img src="logo.png" alt="logo" id="logo">
                         </div>
                         <div class="logoHvid">
-                            <img src="logolight.png" alt="logo" id="logo" class="logolight">
+                            <img src="logolight.png" alt="logo" id="logo">
                         </div>
 
                     </article>
@@ -148,6 +165,15 @@
                         <hr>
                         <button type="button" class="standardBtn">BUTTON</button>
                         <button type="button" class="standardBtnBlue">BUTTON</button>
+
+                        
+                        <div class="btn-group">
+                            <h3>Enten eller knapper</h3>
+                            <hr>
+                            <br>
+                            <button class="button1">Button</button>
+                            <button class="button2">Button</button>
+                          </div>
                     </article>
 
                     <!-- CODE SNIPPETS-->
@@ -175,27 +201,48 @@
             <section class="typoBorder">
                 <section class="typoSection" id="typoSection">
                     <article>
-
+                        
                         <h1>TYPOGRAFI</h1>
-                        <h3 id="ekstypografi">'Arial', Regular</h3>
+                        <h3 id="ekstypografi1">'Arial', Regular</h3>
                         <hr>
                         <p>'Arial', Regular er en google font. Den bliver brugt til al tekst i produktet.</p>
 
-                        <h3 id="ekstypografi">EKSEMPEL PÅ H1 (40px):</h3>
+
+                        <section id="ekstypografi2"> 
+                            <h3>EKSEMPEL PÅ H1 (40px):</h3>
+                            <hr>
+                            <p>DETTE ER ET EKSEMPEL PÅ EN OVERSKRIFT</p>
+                        </section>
+
+                        <section id="ekstypografi3"> 
+                            <h3>EKSEMPEL PÅ H2 (32px):</h3>
+                            <hr>
+                            <p>DETTE ER ET EKSEMPEL PÅ EN OVERSKRIFT</p>
+                        </section>
+
+                        <section id="ekstypografi4"> 
+                            <h3>EKSEMPEL PÅ H3 (28px):</h3>
+                            <hr>
+                            <p>DETTE ER ET EKSEMPEL PÅ EN OVERSKRIFT</p>
+                        </section>
+
+                        <section id="ekstypografi5"> 
+                            <h3>EKSEMPEL PÅ BRØDTEKST (18px):</h3>
                         <hr>
                         <p>DETTE ER ET EKSEMPEL PÅ EN OVERSKRIFT</p>
-
-                        <h3 id="ekstypografi">EKSEMPEL PÅ H2 (32px):</h3>
+                        </section>    
+                        
+                        <h3 id="ekstypografi5">EKSEMPEL PÅ Knapper (18px):</h3>
                         <hr>
-                        <p>DETTE ER ET EKSEMPEL PÅ EN OVERSKRIFT</p>
-
-                        <h3 id="ekstypografi">EKSEMPEL PÅ H3 (28px):</h3>
+                        <p>Dette er et eksempel på "Se mere knap".</p>
+                        
+                        <h3 id="ekstypografi7">Andet:</h3>
                         <hr>
-                        <p>DETTE ER ET EKSEMPEL PÅ EN OVERSKRIFT</p>
+                        <p style="font-size: 40px;">Menubar - 40px bold</p>
+                        <p style="font-size: 22px;">Footer 1 -  22px bold </p>
+                        <p style="font-size: 18px;">Footer 2 -  18px bold </p>
+                        <p style="font-size: 12px;">Progressbar 12px regular </p>
 
-                        <h3 id="ekstypografi">EKSEMPEL PÅ BRØDTEKST (18px):</h3>
-                        <hr>
-                        <p>Dette er et eksempel på brødtekst.</p>
 
                     </article>
 
@@ -207,12 +254,12 @@
                         <hr>
                         <div class="codeEmbed">
                             <code>&lt;link hrel=
-                "'https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'"&gt;</code>
+                "'https://fonts.googleapis.com/css2?family=arial:wght@600&display=swap'"&gt;</code>
                         </div>
                         <h3>FONT CSS</h3>
                         <hr>
                         <div class="codeEmbed">
-                            <code>  font-family: Poppins, sans-serif;</code>
+                            <code>  font-family: Arial, Regular;</code>
                         </div>
 
                     </article>
@@ -231,39 +278,27 @@
                         <h3>Eksempel på input </h3>
                         <br>
                         <section>
-                            <div id="theNidpContent">
-                                <div id="theContentContent">
-                                    <form id="IDPLogin">
-                                        <input type="hidden" name="option" value="credential">
+                            <!-- input eksempel -->
+                        <div id="namepassword" class="content login-page"
+                        style="margin: 25px; display: block;">
+                        <div class="signin-div">
+                            <div class="input-signin-username">
+                                <input type="text" id="Ecom_User_ID"
+                                    name="Ecom_User_ID" tabindex="1" value=""
+                                    placeholder="Fornavn">
+                           <p class="required"> *</p>
+                            </div>
+                        </div>
 
-                                        <!-- username-->
-                                        <div id="namepassword" class="content login-page"
-                                            style="margin: 25px; display: block;">
-                                            <div class="signin-div">
-                                                <div class="input-signin-username"><input type="text" id="Ecom_User_ID"
-                                                        name="Ecom_User_ID" tabindex="1" value=""
-                                                        placeholder="Username"></div>
-                                            </div>
-
-                                            <!-- password-->
-                                            <div class="signin-div">
-                                                <div class="input-signin-password"><input type="password"
-                                                        id="Ecom_Password" name="Ecom_Password" tabindex="2"
-                                                        placeholder="Password"></div>
-                                            </div>
-
-                                            <!-- signin knap-->
-                                            <div class="closure-but signin-div">
-                                                <span class="nam-signin-but action-but" name="loginButton2"
-                                                    id="loginButton2" tabindex="3">Sign in</span>
-                                            </div>
-                                            <!-- vilkår/betingelser knap-->
-                                            <label class="checkbox"> ACCEPTER <u>VILKÅR OG BETINGELSER</u>
-                                                <input type="checkbox">
-                                                <span class="checkmark"></span>
-                                            </label>
-                                        </div>
-                                    </form>
+                        <div class="signin-div">
+                            <div class="input-signin-username">
+                                <input type="text" id="Ecom_User_ID"
+                                    name="Ecom_User_ID" tabindex="1" value=""
+                                    placeholder="Fornavn">
+                           <p class="required"> *</p>
+                            </div>
+                        </div>>
+                    
 
                         </section>
                     </article>
@@ -285,31 +320,8 @@
             </code>
 
                         </div>
-                        <h3>STANDARD INPUT PASSWORD</h3>
-                        <hr>
-                        <div class="codeEmbed">
-                            <code>
-                  &lt;label for="inp" class="inp"&gt;
-                  	&lt;input type="password" placeholder="&nbsp;" name="pass"&gt;
-                  	&lt;span class="label"&gt;&lt;span class="fas fa-lock"&gt;
-                    &lt;/span&gt;ADGANGSKODE&lt;/span&gt;
-                  	&lt;span class="border"&gt;&lt;/span&gt;
-                    &lt;div id="pass_error"&gt;&lt;/div&gt;
-                  &lt;/label&gt;
-                </code>
-                        </div>
+                      
 
-
-                        <h3>STANDARD CHECKBOX</h3>
-                        <hr>
-                        <div class="codeEmbed">
-                            <code>
-                  &lt;label class="checkbox"&gt; ACCEPTER <u>VILKÅR OG BETINGELSER</u>
-                    &lt;input type="checkbox"&gt;
-                    &lt;span class="checkmark"&gt;&lt;/span&gt;
-                  &lt;/label&gt;
-                </code>
-                        </div>
                     </article>
                 </section>
 
@@ -338,6 +350,14 @@
                             <a href="https://fontawesome.com/icons?d=gallery">FONT AWESOME</a>.
                             Det er gratis og har et stort bibliotek af ikoner at vælge imellem.
                         </p>
+
+                        <br>
+                        <br>
+                        <br>
+
+                        <img src="https://img.icons8.com/material-outlined/100/000000/menu--v1.png"/>
+                        <img src="https://img.icons8.com/ios-filled/100/000000/dog-house.png"/>
+
                     </article>
 
 
@@ -385,35 +405,8 @@
                             Her er et eksempel på naviagtionen på "main" samt på en underside.
                         </p>
 
-                        <h3>EKSEMPEL PÅ SUB NAV</h3>
-
-                        <div id="side-menu" class="side-nav">
-                            <a href="#" class="btn-close"><i class="fas fa-bars"></i></a>
-                            <a href="#">MIN PROFIL</a>
-                            <a class="type2" href="#">
-                                <p>Rediger</p>
-                            </a>
-                            <a href="#">MATCHES</a>
-                            <a href="#">CHAT</a>
-                            <a href="#">SUPPORT</a>
-
-                            <div class="logout"><a href="#">
-                                    <i class="fas fa-power-off log-ud"></i>
-                                    <p class="logout-text">LOG UD</p>
-                                </a></div>
-                        </div>
-
-
-                        <h3>EKSEMPEL PÅ MAIN NAV</h3>
-
-                        <nav class="subnav">
-                            <a href="#" class="favorit">Profil</a>
-                            <i class='far fa-comment-dots' style='font-size:36px'></i>
-                            <div class="underline">
-                            </div>
-                            <a href="#" class="nærmeste">Matchs</a>
-                        </nav>
-
+                        <h3>EKSEMPEL PÅ NAVIGATION</h3>
+                        <img src="navigation.PNG" alt="navigation">
 
 
 
@@ -466,37 +459,25 @@
                 <section class="navigationSection" id="navigationSection">
                     <article>
                         <h1>UI PATTERNS</h1>
-                        <h3>Brødsmuler</h3>
+                        <h3>Breadcrumbs</h3>
                         <p>
                             Sammenkædede etiketter til at levere sekundær navigation, der viser stien
                             fra forsiden til den aktuelle webstedsside i hierarkiet.
                         </p>
                         <br>
-                        <h4>Eksempel på SUB NAV</h4>
-
-                        <div id="side-menu" class="side-nav">
-                            <a href="#" class="btn-close"><i class="fas fa-bars"></i></a>
-                            <a href="#">MIN PROFIL</a>
-                            <a class="type2" href="#">
-                                <p>Rediger</p>
-                            </a>
-                            <a href="#">MATCHES</a>
-                            <a href="#">CHAT</a>
-                            <a href="#">SUPPORT</a>
-
-                            <div class="logout"><a href="#">
-                                    <i class="fas fa-power-off log-ud"></i>
-                                    <p class="logout-text">LOG UD</p>
-                                </a></div>
-                        </div>
-
+                        
                         <h3>Steps Left</h3>
                         <p>bliver brugt til at visualisere, hvor mange trin en bruger skal tage for at fuldføre en
                             opgave. Herunder er der taget brug af en statuslinje</p>
                         <br>
                         <h4>Eksempel</h4>
-                        <p>X ud af XX spørgsmål</p>
-                        <progress id="file" value="32" max="100"> 32% </progress>
+                        
+                        <div class="progress">
+                        
+                            <button class="button1">Button</button>
+                            <button class="button">Button</button>
+                            <button class="button2">Button</button>
+                          </div>
 
 
                         <h3>Clear Primary Actions</h3>
@@ -506,59 +487,56 @@
                         <br>
                         <h4>Eksempel på MAIN NAV</h4>
 
-                        <nav class="subnav">
-                            <a href="#" class="favorit">Profil</a>
-                            <i class='far fa-comment-dots' style='font-size:36px'></i>
-                            <div class="underline">
-                            </div>
-                            <a href="#" class="nærmeste">Matchs</a>
-                        </nav>
+                        <img src="navigation.PNG" alt="navigation">
 
                         <h3>Forgiving Format og Minimize/Avoid optional information fields.</h3>
                         <p>Lad brugerne indtaste data i forskellige formater, og brug det påkrævede
                             feltmarkeringsmønster til
                             guide brugerne til at indtaste nødvendige data</p>
                         <br>
+
                         <section>
-                            <div id="theNidpContent">
-                                <div id="theContentContent">
-                                    <form id="IDPLogin">
-                                        <input type="hidden" name="option" value="credential">
+                            <!-- input eksempel -->
+                        <div id="namepassword" class="content login-page"
+                        style="margin: 25px; display: block;">
+                        <div class="signin-div">
+                            <div class="input-signin-username">
+                                <input type="text" id="Ecom_User_ID"
+                                    name="Ecom_User_ID" tabindex="1" value=""
+                                    placeholder="Fornavn">
+                           <p class="required"> *</p>
+                            </div>
+                        </div>
 
-                                        <!-- username-->
-                                        <div id="namepassword" class="content login-page"
-                                            style="margin: 25px; display: block;">
-                                            <div class="signin-div">
-                                                <div class="input-signin-username"><input type="text" id="Ecom_User_ID"
-                                                        name="Ecom_User_ID" tabindex="1" value=""
-                                                        placeholder="Username"></div>
-                                            </div>
-
-                                            <!-- password-->
-                                            <div class="signin-div">
-                                                <div class="input-signin-password"><input type="password"
-                                                        id="Ecom_Password" name="Ecom_Password" tabindex="2"
-                                                        placeholder="Password"></div>
-                                            </div>
-
-                                            <!-- signin knap-->
-                                            <div class="closure-but signin-div">
-                                                <span class="nam-signin-but action-but" name="loginButton2"
-                                                    id="loginButton2" tabindex="3">Sign in</span>
-                                            </div>
-                                            <!-- vilkår/betingelser knap-->
-                                            <label class="checkbox"> ACCEPTER <u>VILKÅR OG BETINGELSER</u>
-                                                <input type="checkbox">
-                                                <span class="checkmark"></span>
-                                            </label>
-                                        </div>
-                                    </form>
+                        <div class="signin-div">
+                            <div class="input-signin-username">
+                                <input type="text" id="Ecom_User_ID"
+                                    name="Ecom_User_ID" tabindex="1" value=""
+                                    placeholder="Fornavn">
+                           <p class="required"> *</p>
+                            </div>
+                        </div>
+                    
 
                         </section>
+                    
+                        <h3> Subscription Plans</h3>
+                        <p>Tilbyd brugerne en valgmenu (inklusive "STØT"-knapper) for tilmelding til bestemte priser.</p>
+                        <br>
+                        <button type="button" class="standardBtn">STØT</button>
 
+                        <h3>Check box</h3>
+                        <p>til betalingsform og om man gerne vil have mulighed for nyhedsbrev</p>
+                        <br>
 
-
-
+                        <label class="checkbox"> Ja, jeg godkender dataloven. <u>VILKÅR OG BETINGELSER</u>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="checkbox"> Ja, tilmeld mig til nyhedsbrevet, hvor man får indblik og historier i RFVs arbejde.<u></u>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
 
                     </article>
 
@@ -651,7 +629,6 @@
 
         </main>
     </div>
-
 
 </body>
 

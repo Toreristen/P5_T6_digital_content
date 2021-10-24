@@ -98,7 +98,7 @@
   /* --- Aside LOGO  --- */
   .asideWrapper img {
     position: absolute;
-    width: 100%;
+    width: 50%;
     height: 130px;
     top: 0;
   }
@@ -129,8 +129,8 @@
   }
 
   .uclLogo{
-    height: 350px;
-    width: 350px;
+    height: 10%;
+    width: 20%;
     margin: -450px 0px 0px 40px;
   }
   
@@ -156,6 +156,128 @@
     margin-right: 10%;
     font-family: proxima-nova, sans-serif;
   }
+
+/* --- Typografi  --- */
+  
+  .typoBorder {
+      padding-bottom: 5%;
+      border-bottom: 2px solid white;
+      }
+  
+  
+  .typoSection {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    font-family: proxima-nova, sans-serif;
+    margin-top: 5%;
+  }
+  
+  .typoSection h1 {
+    margin-top: 60px;
+    margin-bottom: 3%;
+    font-size: 40px;
+    width: 100%;
+    color: #383434;
+  }
+  
+  .typoSection article {
+    width: 35%;
+  }
+  
+  .typoSection article h2 {
+    color: #383434;
+    margin-top: 10%;
+    font-size: 40px;
+  }
+  
+  .typoSection article h3 {
+    color: #383434;
+    margin-top: 10%;
+  }
+  
+  .typoSection article hr {
+    width: 60%;
+  }
+  
+  .typoSection article p {
+    color: #383434;
+    font-size: 20px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+  }
+  
+  
+  #ekstypografi{
+    font-size: 30px;
+  }
+  
+  #eksoverskrift{
+    font-size: 20px;
+  }
+  
+  #eksparagraf{
+  font-size: 16px;
+  }
+  
+  #fontdl{
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  
+  /*CODE SNIPPETS*/
+  
+  .typoSection .ptools {
+    width: 40%;
+    margin-left: -5%;
+  }
+  
+  .typoSection .ptools h2 {
+    color: #383434;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-left: 20%;
+  }
+  
+  .typoSection .ptools h3 {
+    color: #383434;
+    margin-left: 20%;
+  
+  }
+  
+  .typoSection .ptools hr {
+    width: 100%;
+    margin: 10px 0;
+    margin-left: 20%;
+  }
+  
+  .typoSection .ptools p {
+    color: #383434;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .codeEmbed {
+    position: relative;
+    padding: 20px;
+    border-left: 3px solid #383434;
+    background-image: linear-gradient(to right, rgb(236, 236, 236), white);
+    margin-bottom: 40px;
+    margin-left: 20%;
+    width: 75%;
+    }
+  
+  .codeEmbed code {
+    font-size: 20px;
+  }
+  
+
+
   
   /* --- Farver  --- */
   
@@ -216,10 +338,132 @@
     font-size: 20px;
     margin-left: 0%;
   }
+
+
+  /* --- moodaboard section  --- */
+  
+  
+  .moodBoard {
+    padding-bottom: 5%;
+    border-bottom: 2px solid white;
+}
+
+.moodboardSection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  font-family: proxima-nova, sans-serif;
+  margin-top: 5%;
+}
+
+.moodboardSection h1 {
+  margin-top: 60px;
+  margin-bottom: 3%;
+  font-size: 40px;
+  width: 100%;
+  color: #383434;
+}
+
+.moodboardSection article {
+  width: 35%;
+}
+
+.moodboardSection article h2 {
+  color: #383434;
+  margin: 10px 0;
+  font-size: 40px;
+}
+
+.moodboardSection article h3 {
+  color: #383434;
+}
+
+.moodboardSection article hr {
+  width: 60%;
+  margin: 10px 0;
+}
+
+.moodboardSection article p {
+  color: #383434;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+
+/* atomic Knapper */
+
+.atomicknapper {
+  width: 70%;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+.knapperBorder .atomicheaderknapper {
+  font-size: 22px;
+  color: white;
+  margin-left: 5%;
+  margin-top: 5%;
+  
+}
+
+
+
+
+/*CODE SNIPPETS*/
+
+.moodboardSection .ptools {
+  width: 40%;
+  margin-left: -5%;
+}
+
+.moodboardSection .ptools h2 {
+  color: #383434;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  margin-left: 20%;
+}
+
+.moodboardSection .ptools h3 {
+  color: #383434;
+  margin-left: 20%;
+
+}
+
+.moodboardSection .ptools hr {
+  width: 100%;
+  margin: 10px 0;
+  margin-left: 20%;
+}
+
+.moodboardSection .ptools p {
+  color: #383434;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.codeEmbed {
+  position: relative;
+  padding: 20px;
+  border-left: 3px solid #383434b2;
+  background-image: linear-gradient(to right, rgb(236, 236, 236), white);
+  margin-bottom: 40px;
+  margin-left: 20%;
+  width: 75%;
+}
+
+.codeEmbed code {
+  font-size: 20px;
+}
+
     
   /* --- Logo section  --- */
   
   .logoBorder {
+    background-color: #F0E7D4;
       padding-bottom: 5%;
       border-bottom: 2px solid white;
   }
@@ -342,7 +586,6 @@
   
   
   .knapperBorder {
-    background-color: #F0E7D4;
       padding-bottom: 5%;
       border-bottom: 2px solid white;
   }
@@ -390,6 +633,24 @@
     font-size: 20px;
     margin: 10px 0;
   }
+
+  #ekstypografi2 p {
+    font-size: 40px;
+   }
+
+   #ekstypografi3 p {
+    font-size: 32px;
+   }
+
+   #ekstypografi4 p {
+    font-size: 28px;
+   }
+
+   #ekstypografi5 p {
+    font-size: 18px;
+   }
+
+  
   
   
   /* atomic Knapper */
@@ -407,7 +668,51 @@
     margin-top: 5%;
     
   }
+
+  .btn-group .button1 {
+    border: 2px solid #BA563E;
+    color: #BA563E;
+    width: 40%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    border-radius: 30px 0px 0px 30px ;
+  }
+  .btn-group .button2 {
+    border: 2px solid #BA563E;
+    color: #BA563E;
+    width: 40%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    border-radius: 0px 30px 30px 0px ;
+  }
   
+  .btn-group .button1:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  .btn-group .button2:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  .btn-group .button1:hover {
+    background-color: #BA563E;
+    color: white;
+  }
+  .btn-group .button2:hover {
+    background-color: #BA563E;
+    color: white;
+  }
+  
+
   
   
   
@@ -438,7 +743,7 @@
     margin-left: 20%;
   }
   
-  .knapperSection .ptools p {
+  .Section .ptools p {
     color: #383434;
     font-size: 20px;
     margin: 10px 0;
@@ -458,6 +763,59 @@
     font-size: 20px;
   }
   
+  /* progress bar */
+
+  .progress .button {
+    border: 2px solid #BA563E;
+    background-color:#BA563E ;
+    color: white;
+    width: 30%;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    border-radius: 0px 0px 0px 0px ;
+  }
+  .progress .button1 {
+    border: 2px solid #BA563E;
+    color: #BA563E;
+    width: 30%;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    border-radius: 30px 0px 0px 30px ;
+  }
+  .progress .button2 {
+    border: 2px solid #BA563E;
+    background-color:#BA563E ;
+    color: white;
+    width: 30%;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    border-radius: 0px 30px 30px 0px ;
+  }
+  
+  /* placeholder*/
+  .required {
+    color: tomato;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+  }
+
+  
   
   /* NAV knap */
   .navList {
@@ -472,7 +830,7 @@
   .navList a {
     top: 54%;
     text-decoration: underline;
-    color: #9CD9B9;
+    color: #121B2E;
     font-size: 15px;
   }
   
@@ -822,12 +1180,12 @@
       user-select: none;
       text-align: left;
     margin-top: 5%;
-    color: #00464F;
+    color: #383434;
   
   }
   
   .checkbox u {
-    color: #9CD9B9;
+    color: #383434;
   }
   
   .checkbox input {
@@ -850,7 +1208,7 @@
   
   
   .checkbox input:checked ~ .checkmark {
-    background-color: #9CD9B9;
+    background-color: #383434;
   }
   
   
@@ -916,7 +1274,7 @@
   .codeEmbed {
     position: relative;
     padding: 20px;
-    border-left: 3px solid #9CD9B9;
+    border-left: 3px solid #383434;
     background-image: linear-gradient(to right, rgb(236, 236, 236), white);
     margin-bottom: 40px;
     margin-left: 20%;
@@ -960,7 +1318,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #E4F1F0;
+
     margin-left: 5%;
     font-family: proxima-nova, sans-serif;
     margin-top: 5%;
@@ -971,13 +1329,13 @@
     margin-bottom: 5%;
     font-size: 40px;
     width: 100%;
-    color: #00464F;
+    color: #383434;
   }
   
   .ikonerSection p {
       width: 100%;
       font-size: 16px;
-      color: #00464F;
+      color: #383434;
   }
   
   .ikonerSection article {
@@ -985,20 +1343,20 @@
   }
   
   .ikonerSection article h2 {
-    color:#00464F;
+    color:#383434;
     margin-top: 5%;
     font-size: 40px;
   }
   
   .ikonerSection article h3 {
-    color: #00464F;
+    color: #383434;
     margin-top: 10%;
     text-decoration: none;
   }
   
   .ikonerSection article a {
     font-size: 16px;
-    color: #00464F;
+    color: #383434;
   }
   
   
@@ -1011,14 +1369,14 @@
   }
   
   .ikonerSection .ptools h2 {
-    color: #00464F;
+    color: #383434;
     font-size: 40px;
     margin-left: 20%;
     margin-top: 60px;
   }
   
   .ikonerSection .ptools h3 {
-    color: #00464F;
+    color: #383434;
     margin-left: 20%;
     margin-top: 5%;
   
@@ -1031,7 +1389,7 @@
   }
   
   .ikonerSection .ptools p {
-    color: #00464F;
+    color: #383434;
     font-size: 20px;
     margin: 10px 0;
   }
@@ -1039,7 +1397,7 @@
   .codeEmbed {
     position: relative;
     padding: 20px;
-    border-left: 3px solid #9CD9B9;
+    border-left: 3px solid #383434;
     background-image: linear-gradient(to right, rgb(236, 236, 236), white);
     margin-bottom: 40px;
     margin-left: 20%;
@@ -1133,7 +1491,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #E4F1F0;
     margin-left: 5%;
     font-family: proxima-nova, sans-serif;
     margin-top: 5%;
@@ -1144,13 +1501,13 @@
     margin-bottom: 5%;
     font-size: 40px;
     width: 100%;
-    color: #00464F;
+    color: #383434;
   }
   
   .navigationSection p {
       width: 100%;
       font-size: 16px;
-      color: #00464F;
+      color: #383434;
   }
   
   .navigationSection article {
@@ -1158,13 +1515,13 @@
   }
   
   .navigationSection article h2 {
-    color: #00464F;
+    color: #383434;
     margin-top: 5%;
     font-size: 40px;
   }
   
   .navigationSection article h3 {
-    color: #00464F;
+    color: #383434;
     margin-top: 10%;
     margin-bottom: 5%;
     text-decoration: none;
@@ -1172,7 +1529,7 @@
   
   .navigationSection article a {
     font-size: 16px;
-    color: #00464F;
+    color: #383434;
   }
   
   
@@ -1184,14 +1541,14 @@
   }
   
   .navigationSection .ptools h2 {
-    color: #00464F;
+    color: #383434;
     font-size: 40px;
     margin-left: 20%;
     margin-top: 60px;
   }
   
   .navigationSection .ptools h3 {
-    color: #00464F;
+    color: #383434;
     margin-left: 20%;
     margin-top: 5%;
   
@@ -1204,7 +1561,7 @@
   }
   
   .navigationSection .ptools p {
-    color: #00464F;
+    color: #383434;
     font-size: 20px;
     margin: 10px 0;
   }
@@ -1212,7 +1569,7 @@
   .codeEmbed {
     position: relative;
     padding: 20px;
-    border-left: 3px solid #9CD9B9;
+    border-left: 3px solid #383434;
     background-image: linear-gradient(to right, rgb(236, 236, 236), white);
     margin-bottom: 40px;
     margin-left: 20%;
