@@ -766,8 +766,8 @@
   /* progress bar */
 
   .progress .button {
-    border: 2px solid #BA563E;
-    background-color:#BA563E ;
+    border: 2px solid #5D7F8E;
+    background-color:#5D7F8E ;
     color: white;
     width: 30%;
     padding: 5px 32px;
@@ -780,8 +780,8 @@
     border-radius: 0px 0px 0px 0px ;
   }
   .progress .button1 {
-    border: 2px solid #BA563E;
-    color: #BA563E;
+    border: 2px solid #5D7F8E;
+    color: #5D7F8E;
     width: 30%;
     padding: 5px 32px;
     text-align: center;
@@ -793,8 +793,8 @@
     border-radius: 30px 0px 0px 30px ;
   }
   .progress .button2 {
-    border: 2px solid #BA563E;
-    background-color:#BA563E ;
+    border: 2px solid #5D7F8E;
+    background-color:#5D7F8E ;
     color: white;
     width: 30%;
     padding: 5px 32px;
