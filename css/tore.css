@@ -1,5 +1,8 @@
-/*-------------------- primær css ----------------------- */
+/*------------------------- ROOT CSS ----------------------- */
+/* Der bruges BEM til at strukturere og organisere koden */
 :root {
+    /* definerer farverne i root så man nemt kan ændre alle farver, hvis behovet opstår
+    og man undgår at bruge farvekoder */
     --red: #BA563E;
     --blue: #5D7F8E;
     --black: #383434;
@@ -11,7 +14,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/* bruger borderbox så der bliver taget højde for elementers padding og margin */
+/* margins og padding sættes til 0 så det ikke vil påvirke designet */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,7 +29,7 @@ body {
 
 /*-------------------------- header ----------------------*/
 
-/*-------------------navigation----------------------------*/
+/*-------------------------navigation----------------------------*/
 
 .nav {
     background-color: var(--black);
