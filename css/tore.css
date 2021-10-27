@@ -1,0 +1,40 @@
+/*-------------------- primær css ----------------------- */
+:root {
+    --red: #BA563E;
+    --blue: #5D7F8E;
+    --black: #383434;
+    --white: #f7f8f8;
+    --beige: #f0e7d4;
+    
+    /* der bruges rem i koden, vi har defineret at normal font-size er 10px, det betyder at 1rem er 10px */
+    font-size: 10px;
+}
+
+
+html {
+    background-color: var(--white);
+    color: var(--black);
+    box-sizing: border-box;
+    margin: none;
+    padding: none;
+}
+
+/*-------------------------- header ----------------------*/
+
+/*-------------------navigation----------------------------*/
+
+.nav {
+    background-color: var(--black);
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__list__item {
+    font-size: 2rem;
+}
+
+.nav__icon {
+    
+}
