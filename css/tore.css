@@ -124,6 +124,10 @@ body {
     font-size: 1.8rem;
 }
 
+.footer__txt--number {
+    padding-bottom: 30px;
+}
+
 .footer__txt--time {
     margin-top: 20px;
 }
