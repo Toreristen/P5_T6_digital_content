@@ -146,6 +146,37 @@ body {
     margin-left: 5px;
 }
 
+/* ----------------------DONATE-------------------------- */
+.donate {
+    width: 100%;
+    height: auto;
+}
+
+.donate__title {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.donate__txt {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+.donate__btn {
+    width: 217px;
+    height: 38px;
+    color: var(--white);
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+
+    background-color: var(--red);
+}
+
 /* -----------------------FOOTER---------------------------*/
 
 .footer {
