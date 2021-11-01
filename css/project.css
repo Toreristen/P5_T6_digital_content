@@ -41,7 +41,7 @@ body {
 .header__video {
     width: 100%;
     height: auto;
-    background: #383434;
+   
     backdrop-filter: opacity(50%);
    /* background-color: linear-gradient(0deg, #00000088 100%, #ffffff44 100%)
 */
@@ -105,7 +105,46 @@ body {
 }
 
 /* ---------------------- MAIN ---------------------------- */
+.project {
+    background: var(--beige);
+    width: 100%;
+    height: auto;
+}
 
+.project__title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 25px;
+    padding-top: 40px;
+}
+
+.project__txt {
+    font-size: 1.8rem;
+    margin: 0px 25px;
+    margin-top: 5px;
+}
+
+.project__button {
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 25px;
+    margin-top: 45px;
+    padding-bottom: 20px;
+}
+
+.project__button-txt {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.project__button-arrow {
+    color: var(--black);
+    font-size: 3.2rem;
+    text-decoration: none;
+    margin-left: 5px;
+}
 
 /* -----------------------FOOTER---------------------------*/
 
