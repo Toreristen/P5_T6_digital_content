@@ -148,6 +148,10 @@ body {
 
 /* ----------------------DONATE-------------------------- */
 .donate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: auto;
 }
@@ -164,17 +168,37 @@ body {
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .donate__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--red);
     width: 217px;
     height: 38px;
     color: var(--white);
+    font-size: 2.2rem;
+    font-weight: bold;
     text-align: center;
-    align-items: center;
     border-radius: 50px;
+    box-shadow: 2px 4px 8px #383434b2;
+    margin-bottom: 40px;
+}
 
-    background-color: var(--red);
+.donate__btn:hover {
+    background-color: #600000;
+}
+
+.donate__btn--blue {
+    background: var(--blue);
+    margin-bottom: 100px;
+}
+
+.donate__btn--blue:hover {
+    background: #22313F;
 }
 
 /* -----------------------FOOTER---------------------------*/
