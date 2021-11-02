@@ -270,10 +270,15 @@ body {
   }
 
  /* ------------------------radio--------------------- */
-  .paytype__label {
+ .paytype__label {
       padding-bottom: 25px;
       font-size: 1.8rem;
       font-weight: bold;
+  }
+
+  .paytype__label--active {
+    font-size: 1.2rem;
+    padding-top: 5px;
   }
 
 /* ------------------------------inputs------------------------ */
@@ -288,7 +293,7 @@ body {
     width: 160px;
     height: 3.8rem;
     color: var(--black);
-    border: 3px solid var(--red);
+    border: 2px solid var(--red);
     border-radius: 4px;
     padding-bottom: 10px;
     padding-left: 3px;
@@ -299,11 +304,15 @@ body {
     width: 100%;
     height: 3.8rem;
     color: var(--black);
-    border: 3px solid var(--red);
+    border: 2px solid var(--red);
     border-radius: 4px;
     padding-bottom: 10px;
     padding-left: 3px;
     margin-bottom: 25px;
+}
+
+.inputs__shorty--active {
+  margin-bottom: 0px;
 }
 
 .submit {
@@ -324,7 +333,7 @@ body {
     text-align: center;
     border-radius: 50px;
     box-shadow: 2px 4px 8px #383434b2;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 /* -----------------------FOOTER---------------------------*/
