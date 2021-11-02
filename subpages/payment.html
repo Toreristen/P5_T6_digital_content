@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retshjælpen Fyns Venner</title>
     <link rel="stylesheet" href="../css/payment.css">
+    <script src="https://kit.fontawesome.com/bd8605f5df.js" crossorigin="anonymous"></script>
 </head>
-<body>
 
-<!-- ----------------------NAVIGATION------------------------ -->
+<body>
+    <!-- ---------------Header----------------- -->
+
     <nav class="nav">
         <ol class="nav__list">
             <li class="nav__list__item">
@@ -25,23 +28,80 @@
             <li class="nav__list__item">
                 <a class="nav__icon" href=""><i class="fas fa-home"></i></a>
             </li>
-       </ol>
+        </ol>
     </nav>
-<!-- --------------------------------Header----------------- -->
 
     <header>
-
+        <!-- implement video tag in header -->
+        <section class="header">
+            <div class="header__video">
+                <video id="header__video" autoplay muted loop src="../video/header-video.mp4">
+                </video>
+                <h1 class="header__title"></h1>
+                <div class="header__video-overlay"></div>
+            </div>
+        </section>
     </header>
+    <!-- ------------------MAIN---------------- -->
+    <main class="payment">
+        <!-- ---------------timeline------------------------- -->
+        <section class="timeline">
+          
+        </section>
+<!-- -----------------------Betalingstype------------------------- -->
+        <section class="paytype">
+            <h2 class="paytype__title">Betalingstype</h2>
+            <div class="paytype__btn">
+                <button class="paytype__btn-1">MEDLEMSSKAB</button>
+                <button class="paytype__btn-2">ENKELT BETALING</button>
+            </div> 
+        </section>
+<!-- ------------------radio--------------------------- -->
+        <section class="paytype">
+            <h2 class="paytype__title">Betalingsmetode</h2>
+            <div class="paytype__mobilepay">
+                <input type="radio" name="payment" id="mobilepay" value="Mobilepay" checked>
+                <label class="paytype__label" for="mobilepay">Mobilepay</label>
+            </div>
+            <div class="paytype__betalingsservice">
+                <input type="radio"name="payment" id="betalingsservice" value="betalingsservice">
+                <label class="paytype__label" for="betalingsservice">Betalingsservice</label>
+            </div>
+            
+        </section>
 
-<!-- ---------------------------MAIN-------------------------------------- -->
-    <main>
+        <section class="paytype">
+            <h2 class="paytype__title">Beløb</h2>
+            <div class="paytype__btn">
+                <button class="paytype__btn-start">100</button>
+                <button class="paytype__btn-middle">150</button>
+                <button class="paytype__btn-middle">200</button>
+                <button class="paytype__btn-end">250</button>
+
+            </div> 
+        </section>
+
+        <section class="paytype">
+            <h2 class="paytype__title">Hvor ofte?</h2>
+            <div class="paytype__btn">
+                <button class="paytype__btn-1">Månedlig</button>
+                <button class="paytype__btn-2">Årlig</button>
+            </div> 
+        </section>
+
+        <section class="paytype">
+            <h2 class="paytype__title">Fra Hvornår?</h2>
+            <div class="paytype__btn">
+                <button class="paytype__btn-1">Omgående</button>
+                <button class="paytype__btn-2">1. december</button>
+            </div> 
+        </section>
 
     </main>
-
-<!-- ------------------------FOOTER----------------------------- -->
+    <!-- ----------------FOOTER--------------------- -->
     <footer class="footer">
         <p class="footer__title">find os på</p>
-        <div class="footer__some"> 
+        <div class="footer__some">
             <a class="footer__some-left" href="#"><i class="fab fa-facebook"></i></a>
             <a class="footer__some-right" href="#"><i class="fab fa-linkedin"></i></a>
         </div>
@@ -53,6 +113,6 @@
         <p class="footer__title">Åbningstider</p>
         <p class="footer__txt footer__txt--time">Man-Fre - 10:00-15:30</p>
     </footer>
-
 </body>
+
 </html>
