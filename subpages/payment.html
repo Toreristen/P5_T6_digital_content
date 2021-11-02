@@ -43,7 +43,7 @@
         </section>
     </header>
     <!-- ------------------MAIN---------------- -->
-    <main class="payment">
+    <main>
         <!-- ---------------timeline------------------------- -->
         <section class="timeline">
           
@@ -77,13 +77,12 @@
 <!-- -----------------------BELØB------------------------------- -->
         <section class="paytype">
             <h2 class="paytype__title paytype__title--active">Beløb</h2>
-            <div class="paytype__btn">
-                <button class="paytype__btn-start">100</button>
-                <button class="paytype__btn-middle">150</button>
-                <button class="paytype__btn-middle">200</button>
-                <button class="paytype__btn-end">250</button>
-
-            </div> 
+                <div class="paytype__btn">
+                    <button class="paytype__btn-start">100</button>
+                    <button class="paytype__btn-middle">150</button>
+                    <button class="paytype__btn-middle">200</button>
+                    <button class="paytype__btn-end">250</button>
+                </div> 
         </section>
 
         <section class="paytype">
@@ -101,8 +100,53 @@
                 <button class="paytype__btn-2">1. december</button>
             </div> 
         </section>
+    
+        <section class="inputs">
+                <input class="inputs__shorty" type="text" name="firstname" placeholder="Fornavn *">
+                <input class="inputs__shorty" type="text" name="lastname" placeholder="Efternavn *">
+        </section>
+        
+        <section class="inputs">
+            <input type="text" class="inputs__long" name="email" placeholder="Email *">
+            <input type="text" class="inputs__long" name="confirmemail" placeholder="Bekræft Email *">
+            <input type="text" class="inputs__long" name="telephone" placeholder="Telefon *">
+            <input type="text" class="inputs__long" name="address" placeholder="Adresse *">
+        </section>
 
+        <section class="inputs">
+            <input class="inputs__shorty" type="text" name="firstname" placeholder="Postnr *">
+            <input class="inputs__shorty" type="text" name="lastname" placeholder="By *">
+    </section>
+
+    <section class="inputs">
+        <input class="inputs__shorty" type="text" name="firstname" placeholder="Fødselsdag *">
+        <input class="inputs__shorty" type="text" name="lastname" placeholder="Sidste 4 I CPR nr.  *">
+</section>
+
+
+<section class="paytype">
+
+    <label class="paytype__label" for="mobilepay">
+        <input type="radio" name="payment" id="mobilepay" value="Mobilepay" checked>
+        Ja, tilmeld mig til nyhedsbrevet, hvor man får indblik og historier i RFVs arbejde.
+    </label>
+    <br>
+    <label class="paytype__label" for="betalingsservice">
+        <input type="radio"name="payment" id="betalingsservice" value="betalingsservice">
+        Ja, jeg godkender dataloven.
+    </label>
+    <br>
+
+</section>
+
+<section class="submit">
+    <div class="submit__btn">STØT</div>
+</section>
+        
+<!-- ------------------------------inputs---------------------------------- -->
     </main>
+   
+
     <!-- ----------------FOOTER--------------------- -->
     <footer class="footer">
         <p class="footer__title">find os på</p>
