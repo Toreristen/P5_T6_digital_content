@@ -318,6 +318,7 @@ body {
 .submit {
     display: flex;
     justify-content: center;
+   
 }
 
 .submit__btn {
@@ -335,6 +336,38 @@ body {
     box-shadow: 2px 4px 8px #383434b2;
     margin-bottom: 100px;
 }
+
+/*------------------conformation---------------------------*/
+
+
+.conformation{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.conformation__title{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.submit a{
+  text-decoration: none;
+}
+
+
+.fa-check-circle:before {
+  color: var(--red);
+  font-size: 150px;
+  text-align: center;
+  
+}
+
+
 
 /* -----------------------FOOTER---------------------------*/
 

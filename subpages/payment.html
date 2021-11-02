@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retshjælpen Fyns Venner</title>
     <link rel="stylesheet" href="../css/payment.css">
+    <script src="../javascript/nadin.js"></script>
     <script src="https://kit.fontawesome.com/bd8605f5df.js" crossorigin="anonymous"></script>
 </head>
 
@@ -45,106 +46,128 @@
     <!-- ------------------MAIN---------------- -->
     <main>
         <!-- ---------------timeline------------------------- -->
-        <section class="timeline">
-          
-        </section>
+        <div id="payment">
+            <section class="timeline">
 
-        <!-- -----------------------Betalingstype------------------------- -->
-        <section class="paytype">
-            <h2 class="paytype__title">Betalingstype</h2>
-            <div class="paytype__btn">
-                <button class="paytype__btn-1">MEDLEMSSKAB</button>
-                <button class="paytype__btn-2">ENKELT BETALING</button>
-            </div> 
-        </section>
+            </section>
 
-        <!-- ------------------radio--------------------------- -->
-        <section class="paytype">
-            <h2 class="paytype__title">Betalingsmetode</h2>
+            <!-- -----------------------Betalingstype------------------------- -->
+            <section class="paytype">
+                <h2 class="paytype__title">Betalingstype</h2>
+                <div class="paytype__btn">
+                    <button class="paytype__btn-1">MEDLEMSSKAB</button>
+                    <button class="paytype__btn-2">ENKELT BETALING</button>
+                </div>
+            </section>
 
-            <label class="paytype__label" for="mobilepay">
-                <input type="radio" name="payment" id="mobilepay" value="Mobilepay" checked>
-                Mobilepay
-            </label>
-            <br>
-            <label class="paytype__label" for="betalingsservice">
-                <input type="radio"name="payment" id="betalingsservice" value="betalingsservice">
-                Betalingsservice
-            </label>
-            <br>
+            <!-- ------------------radio--------------------------- -->
+            <section class="paytype">
+                <h2 class="paytype__title">Betalingsmetode</h2>
 
-        </section>
-<!-- -----------------------BELØB------------------------------- -->
-        <section class="paytype">
-            <h2 class="paytype__title paytype__title--active">Beløb</h2>
+                <label class="paytype__label" for="mobilepay">
+                    <input type="radio" name="payment" id="mobilepay" value="Mobilepay" checked>
+                    Mobilepay
+                </label>
+                <br>
+                <label class="paytype__label" for="betalingsservice">
+                    <input type="radio" name="payment" id="betalingsservice" value="betalingsservice">
+                    Betalingsservice
+                </label>
+                <br>
+
+            </section>
+            <!-- -----------------------BELØB------------------------------- -->
+            <section class="paytype">
+                <h2 class="paytype__title paytype__title--active">Beløb</h2>
                 <div class="paytype__btn">
                     <button class="paytype__btn-start">100kr.</button>
                     <button class="paytype__btn-middle">150kr.</button>
                     <button class="paytype__btn-middle">200kr.</button>
                     <button class="paytype__btn-end">250kr.</button>
-                </div> 
-        </section>
+                </div>
+            </section>
 
-        <section class="paytype">
-            <h2 class="paytype__title">Hvor ofte?</h2>
-            <div class="paytype__btn">
-                <button class="paytype__btn-1">Månedlig</button>
-                <button class="paytype__btn-2">Årlig</button>
-            </div> 
-        </section>
+            <section class="paytype">
+                <h2 class="paytype__title">Hvor ofte?</h2>
+                <div class="paytype__btn">
+                    <button class="paytype__btn-1">Månedlig</button>
+                    <button class="paytype__btn-2">Årlig</button>
+                </div>
+            </section>
 
-        <section class="paytype">
-            <h2 class="paytype__title">Fra Hvornår?</h2>
-            <div class="paytype__btn">
-                <button class="paytype__btn-1">Omgående</button>
-                <button class="paytype__btn-2">1. december</button>
-            </div> 
-        </section>
-    
-        <section class="inputs">
+            <section class="paytype">
+                <h2 class="paytype__title">Fra Hvornår?</h2>
+                <div class="paytype__btn">
+                    <button class="paytype__btn-1">Omgående</button>
+                    <button class="paytype__btn-2">1. december</button>
+                </div>
+            </section>
+
+            <section class="inputs">
                 <input class="inputs__shorty" type="text" name="firstname" placeholder="Fornavn *">
                 <input class="inputs__shorty" type="text" name="lastname" placeholder="Efternavn *">
-        </section>
-        
-        <section class="inputs">
-            <input type="text" class="inputs__long" name="email" placeholder="Email *">
-            <input type="text" class="inputs__long" name="confirmemail" placeholder="Bekræft Email *">
-            <input type="text" class="inputs__long" name="telephone" placeholder="Telefon *">
-            <input type="text" class="inputs__long inputs__shorty--active" name="address" placeholder="Adresse *">
-        </section>
+            </section>
 
-        <section class="inputs">
-            <input class="inputs__shorty" type="text" name="firstname" placeholder="Postnr *">
-            <input class="inputs__shorty" type="text" name="lastname" placeholder="By *">
-        </section>
+            <section class="inputs">
+                <input type="text" class="inputs__long" name="email" placeholder="Email *">
+                <input type="text" class="inputs__long" name="confirmemail" placeholder="Bekræft Email *">
+                <input type="text" class="inputs__long" name="telephone" placeholder="Telefon *">
+                <input type="text" class="inputs__long inputs__shorty--active" name="address" placeholder="Adresse *">
+            </section>
 
-        <section class="inputs">
-            <input class="inputs__shorty" type="text" name="firstname" placeholder="Fødselsdag *">
-            <input class="inputs__shorty" type="text" name="lastname" placeholder="Sidste 4 I CPR nr.  *">
-        </section>
+            <section class="inputs">
+                <input class="inputs__shorty" type="text" name="firstname" placeholder="Postnr *">
+                <input class="inputs__shorty" type="text" name="lastname" placeholder="By *">
+            </section>
+
+            <section class="inputs">
+                <input class="inputs__shorty" type="text" name="firstname" placeholder="Fødselsdag *">
+                <input class="inputs__shorty" type="text" name="lastname" placeholder="Sidste 4 I CPR nr.  *">
+            </section>
 
 
-<section class="paytype">
+            <section class="paytype">
 
-    <label class="paytype__label paytype__label--active" for="mobilepay">
-        <input type="radio" name="payment" id="mobilepay" value="Mobilepay" checked>
-        Ja, tilmeld mig til nyhedsbrevet, hvor man får indblik og historier i RFVs arbejde.
-    </label>
-    <br>
-    <label class="paytype__label paytype__label--active" for="betalingsservice">
-        <input type="radio"name="payment" id="betalingsservice" value="betalingsservice">
-        Ja, jeg godkender <a href="#">dataloven</a>
-    </label>
+                <label class="paytype__label paytype__label--active" for="mobilepay">
+                    <input type="radio" name="payment" id="mobilepay" value="Mobilepay" checked>
+                    Ja, tilmeld mig til nyhedsbrevet, hvor man får indblik og historier i RFVs arbejde.
+                </label>
+                <br>
+                <label class="paytype__label paytype__label--active" for="betalingsservice">
+                    <input type="radio" name="payment" id="betalingsservice" value="betalingsservice">
+                    Ja, jeg godkender <a href="#">dataloven</a>
+                </label>
 
-</section>
+            </section>
 
-<section class="submit">
-    <div class="submit__btn">STØT</div>
-</section>
-        
-<!-- ------------------------------inputs---------------------------------- -->
+            <section class="submit">
+                <button onclick="conformationSceen()" class="submit__btn">Næste</button>
+            </section>
+        </div>
+
+        <!-- ------------------------------conformation page---------------------------------- -->
+        <div id="confirmation">
+            <section class="conformation" id="conformation">
+
+                <i class="fas fa-check-circle"></i>
+
+
+
+            </section>
+            <section class="conformation" id="conformation">
+
+
+                <h2 class="conformation__title">Tusind Tak for din Støtte!</h2>
+
+            </section>
+
+            <section class="submit">
+                <a href="../index.html"> <button class="submit__btn">Til Forsiden</button></a>
+            </section>
+        </div>
+
     </main>
-   
+
 
     <!-- ----------------FOOTER--------------------- -->
     <footer class="footer">
