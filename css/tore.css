@@ -128,7 +128,6 @@ body {
 }
 
 .about__button {
-    border: 1px solid red;
     display: flex;
     justify-content: flex-end;
     align-items: center;
