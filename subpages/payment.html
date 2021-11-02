@@ -48,7 +48,8 @@
         <section class="timeline">
           
         </section>
-<!-- -----------------------Betalingstype------------------------- -->
+
+        <!-- -----------------------Betalingstype------------------------- -->
         <section class="paytype">
             <h2 class="paytype__title">Betalingstype</h2>
             <div class="paytype__btn">
@@ -56,22 +57,26 @@
                 <button class="paytype__btn-2">ENKELT BETALING</button>
             </div> 
         </section>
-<!-- ------------------radio--------------------------- -->
+
+        <!-- ------------------radio--------------------------- -->
         <section class="paytype">
             <h2 class="paytype__title">Betalingsmetode</h2>
-            <div class="paytype__mobilepay">
-                <input type="radio" name="payment" id="mobilepay" value="Mobilepay" checked>
-                <label class="paytype__label" for="mobilepay">Mobilepay</label>
-            </div>
-            <div class="paytype__betalingsservice">
-                <input type="radio"name="payment" id="betalingsservice" value="betalingsservice">
-                <label class="paytype__label" for="betalingsservice">Betalingsservice</label>
-            </div>
-            
-        </section>
 
+            <label class="paytype__label" for="mobilepay">
+                <input type="radio" name="payment" id="mobilepay" value="Mobilepay" checked>
+                Mobilepay
+            </label>
+            <br>
+            <label class="paytype__label" for="betalingsservice">
+                <input type="radio"name="payment" id="betalingsservice" value="betalingsservice">
+                Betalingsservice
+            </label>
+            <br>
+
+        </section>
+<!-- -----------------------BELØB------------------------------- -->
         <section class="paytype">
-            <h2 class="paytype__title">Beløb</h2>
+            <h2 class="paytype__title paytype__title--active">Beløb</h2>
             <div class="paytype__btn">
                 <button class="paytype__btn-start">100</button>
                 <button class="paytype__btn-middle">150</button>

@@ -125,6 +125,10 @@ body {
     margin-bottom: 10px;
 }
 
+.paytype__title--active {
+    margin-top: 25px;
+}
+
 .paytype__btn {
     background: var(--white);
     width: 100%;
@@ -263,7 +267,6 @@ body {
     color: white;
   }
 
-
   .paytype__btn-start:hover {
     background-color: #BA563E;
     color: white;
@@ -278,9 +281,11 @@ body {
   }
  
   .paytype__label {
+      padding-bottom: 25px;
       font-size: 1.8rem;
       font-weight: bold;
   }
+
 
 /* -----------------------FOOTER---------------------------*/
 
