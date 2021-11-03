@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retshjælpen Fyns Venner</title>
     <link rel="stylesheet" href="css/main.css">
+<script type="laura.js">
+
+</script>
     <script src="https://kit.fontawesome.com/bd8605f5df.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- ---------------Header----------------- -->
-    
+
     <nav class="nav">
         <ol class="nav__list">
             <li class="nav__list__item">
@@ -28,15 +31,15 @@
             </li>
        </ol>
     </nav>
-    
-    <header>   
+
+    <header>
         <!-- implement video tag in header -->
         <section class="header">
             <div class="header__video">
                 <video id="header__video" autoplay muted loop src="video/header-video.mp4">
                 </video>
                 <div class="header__video-overlay"></div>
-                <h1 class="header__title">Vi støtter Retshjælpen Fyn</h1>              
+                <h1 class="header__title">Vi støtter Retshjælpen Fyn</h1>
             </div>
         </section>
     </header>
@@ -53,12 +56,25 @@
                 <p class="about__button-txt">Se Mere</p>
                 <a class="about__button-arrow" href="#"><i class="fas fa-chevron-down"></i></a>
             </div>
-            
+
+        </section>
+
+        <button onclick="dropDrown()" type="button" name="button">TEST</button>
+
+        <section id="seMere" class="about">
+
+            <div class="about__button">
+              <p> Retshjælpen Fyns Venners mission er at støtte Retshjælpen Fyn økonomisk, så de kan skabe et attraktivt arbejdsmiljø for frivillig ansatte, samt skabe kendskab til gratis juridisk retshjælp.</p>
+                <p class="about__button-txt">Se Mere</p>
+
+                <a class="about__button-arrow" href="#"><i class="fas fa-chevron-down"></i></a>
+            </div>
+
         </section>
 
         <section class="donate">
             <h2 class="donate__title">Vil du gøre en forskel?</h2>
-            <p class="donate__txt">Du kan støtte med et fast bidrag 
+            <p class="donate__txt">Du kan støtte med et fast bidrag
                 <br> eller med en enkeltbetaling</p>
                 <div class="donate__btn">STØT</div>
             <h2 class="donate__title">Har du selv brug for
@@ -72,7 +88,7 @@
 <!-- ----------------FOOTER--------------------- -->
     <footer class="footer">
         <p class="footer__title">find os på</p>
-        <div class="footer__some"> 
+        <div class="footer__some">
             <a class="footer__some-left" href="#"><i class="fab fa-facebook"></i></a>
             <a class="footer__some-right" href="#"><i class="fab fa-linkedin"></i></a>
         </div>
