@@ -8,7 +8,7 @@
     --black: #383434;
     --white: #f7f8f8;
     --beige: #f0e7d4;
-    
+
     /* der bruges rem i koden, vi har defineret at normal font-size er 10px, det betyder at 1rem er 10px */
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -120,6 +120,14 @@ body {
     margin-left: 25px;
     padding-top: 40px;
 }
+
+.about__undertitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 25px;
+    padding-top: 40px;
+}
+
 
 .about__txt {
     font-size: 1.8rem;
