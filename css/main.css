@@ -77,6 +77,17 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    transform: translateX(-100%);
+    transition: transform 0.3s;
+}
+
+.showMenu {
+    transform: translateX(0);
+}
+
+.closeMenu {
+    transform: translateX(-100%);
+    transition: transform 0.5s;
 }
 
 .nav__list {
@@ -118,6 +129,7 @@ body {
 .nav__icon {
    color: var(--white);
    text-decoration: none;
+   cursor: pointer;
 }
 
 .nav__btn {
