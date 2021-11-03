@@ -132,6 +132,10 @@ body {
    cursor: pointer;
 }
 
+.nav__icon--active {
+    display: none;
+}
+
 .nav__btn {
     display: flex;
     justify-content: center;

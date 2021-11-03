@@ -3,19 +3,24 @@ console.log("works")
 const hamburger = document.querySelector("#hamburger");
 const menu = document.querySelector(".nav__list-container");
 const menuItems = document.querySelectorAll(".nav__list-item");
+const closeMenu = document.querySelector(".nav__list-item--active")
+
 
 window.addEventListener('DOMContentLoaded', (event) => {
     menu.style.visibility = "hidden";
 })
 
 
-function toggleMenu(hamburger) {
+function toggleMenu() {
+    hamburger;
     console.log("function works")
     if (menu.style.visibility === "hidden") {
         menu.classList.add("showMenu");
         menu.classList.remove("closeMenu");
         menu.style.visibility = "visible";
         menuItems.style.visibility = "visible";
+        hamburger.style.display = "none";
+        closeMenu.style.display = "initial";
         //insert animation
     }else {
         menu.style.visibility = "hidden";
