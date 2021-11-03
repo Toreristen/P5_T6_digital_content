@@ -207,7 +207,6 @@ body {
     border-radius: 0px 30px 30px 0px ;
   }
 
-  
   .paytype__btn-middle {
     border: 2px solid var(--red);
     color: var(--black);
@@ -224,10 +223,7 @@ body {
     justify-content: center;
     cursor: pointer;
     float: left;
-    
   }
-
-
 
   .paytype__btn-1:not(:last-child) {
     border-right: none; /* Prevent double borders */
@@ -339,7 +335,6 @@ body {
 
 /*------------------conformation---------------------------*/
 
-
 .conformation{
     margin-top: 50px;
     display: flex;
@@ -366,8 +361,6 @@ body {
   text-align: center;
   
 }
-
-
 
 /* -----------------------FOOTER---------------------------*/
 
