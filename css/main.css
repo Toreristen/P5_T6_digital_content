@@ -68,6 +68,14 @@ body {
 
 /*-------------------------navigation----------------------------*/
 
+.nav__list-img {
+    position: absolute;
+    top: 30px;
+    margin-left: 25px;
+    width: 255px;
+
+}
+
 .nav__list-container {
     background-color: var(--beige);
     position: fixed;
@@ -86,7 +94,7 @@ body {
 }
 
 .closeMenu {
-    transform: translateX(-100%);
+    transform: translateX(2);
     transition: transform 0.5s;
 }
 
@@ -101,7 +109,21 @@ body {
     margin-bottom: 15px;
 }
 
+.nav__list-a {
+    color: var(--black);
+    font-size: 4rem;
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+
 .nav__list-item--bottom {
+    margin-bottom: 25px;
+}
+
+.nav__list-a--bottom {
     margin-bottom: 25px;
 }
 
