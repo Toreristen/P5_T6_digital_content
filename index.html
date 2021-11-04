@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retshjælpen Fyns Venner</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="javascript/laura.js"></script>
     <script src="https://kit.fontawesome.com/bd8605f5df.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="../javascript/menu.js" defer></script>
 </head>
+
 <body>
     <!-- ---------------Header----------------- -->
-    
+
     <nav class="nav">
 
         <div class="nav__list-container">
@@ -47,8 +50,8 @@
         </div>
         
     </nav>
-    
-    <header>   
+
+    <header>
         <!-- implement video tag in header -->
         <section class="header">
 
@@ -58,31 +61,62 @@
                 <video id="header__video" autoplay muted loop src="video/header-video.mp4">
                 </video>
                 <div class="header__video-overlay"></div>
-                <h1 class="header__title">Vi støtter Retshjælpen Fyn</h1>              
+                <h1 class="header__title">Vi støtter Retshjælpen Fyn</h1>
             </div>
         </section>
     </header>
-<!-- ------------------MAIN---------------- -->
+    <!-- ------------------MAIN---------------- -->
     <main>
         <section class="about">
             <h2 class="about__title">Om os</h2>
             <p class="about__txt">
-                Vi er en etableret støtteforening for Retshjælpen Fyn. Som støtteforening er vores opgave at sørge for nødvendige ressourcer til Retshjælpen Fyn.
+                Vi er en etableret støtteforening for Retshjælpen Fyn. Som støtteforening er vores opgave at sørge for
+                nødvendige ressourcer til Retshjælpen Fyn.
                 <br><br>
-                Vores arbejde hviler på det medmenneskelighed og tager udgangspunkt...
+                Vores arbejde hviler på det medmenneskelighed og tager udgangspunkt <span id="points">...</span>
             </p>
-            <div class="about__button">
+            <div id="mere" class="about">
+              <p class="about__txt">i værdierne ordentlighed, ligestilling og respekt. Ethvert menneske er enestående og værdifuldt i sig selv. Derfor er vores mission at værne om vores medmennesker og de muligheden for, at kende til gratis og let tilgængelig retshjælp. </p>
+              <h2 class="about__undertitle">Vision</h2>
+              <p class="about__txt">
+                  Retshjælpen Fyns Venners vision er, at gøre en ekstra indsats for dem, der har behov for gratis juridisk rådgivning, samt ønsker vi at skabe et attraktivt arbejdsmiljø for de frivillig ansatte hos Retshjælpen Fyn. Vores kerneværdi er, at alle skal have mulighed for, at få tilbuddet for retshjælp.
+                  <br><br>
+
+              </p>
+              <h2 class="about__undertitle">Mission</h2>
+              <p class="about__txt">
+                  Retshjælpen Fyns Venners mission er at støtte Retshjælpen Fyn økonomisk, så de kan skabe et attraktivt arbejdsmiljø for frivillig ansatte, samt skabe kendskab til gratis juridisk retshjælp.
+                  <br><br>
+
+              </p>
+              <h2 class="about__undertitle">Værdier</h2>
+              <p class="about__txt">
+                  Vi går indenfor ordentlighed, Ligestilling mellem vores medmennesker uanset samfundsklasse for at få en bedre fremtid.
+                  <br><br>
+
+              </p>
+            </div>
+            <div onclick="dropDrown()" id="buttonText" class="about__button">
                 <p class="about__button-txt">Se Mere</p>
                 <a class="about__button-arrow" href="#"><i class="fas fa-chevron-down"></i></a>
             </div>
-            
+
+        </section>
+
+        <!-- ------------------drop down---------------- -->
+        <section id="mere" class="about">
+
+
+
+
         </section>
 
         <section class="donate">
             <h2 class="donate__title">Vil du gøre en forskel?</h2>
-            <p class="donate__txt">Du kan støtte med et fast bidrag 
-                <br> eller med en enkeltbetaling</p>
-                <div class="donate__btn">STØT</div>
+            <p class="donate__txt">Du kan støtte med et fast bidrag
+                <br> eller med en enkeltbetaling
+            </p>
+            <div class="donate__btn">STØT</div>
             <h2 class="donate__title">Har du selv brug for
                 retshjælp?</h2>
             <p class="donate__txt">Tryk her for at blive dirigeret
@@ -91,10 +125,10 @@
         </section>
 
     </main>
-<!-- ----------------FOOTER--------------------- -->
+    <!-- ----------------FOOTER--------------------- -->
     <footer class="footer">
         <p class="footer__title">find os på</p>
-        <div class="footer__some"> 
+        <div class="footer__some">
             <a class="footer__some-left" href="#"><i class="fab fa-facebook"></i></a>
             <a class="footer__some-right" href="#"><i class="fab fa-linkedin"></i></a>
         </div>
@@ -107,4 +141,5 @@
         <p class="footer__txt footer__txt--time">Man-Fre - 10:00-15:30</p>
     </footer>
 </body>
+
 </html>
