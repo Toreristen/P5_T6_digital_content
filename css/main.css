@@ -132,8 +132,12 @@ body {
    cursor: pointer;
 }
 
-.nav__icon--active {
+.nav__icon2 {
     display: none;
+    /*visibility: hidden;*/
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .nav__btn {
