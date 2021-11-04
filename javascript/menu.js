@@ -1,3 +1,5 @@
+//Made by Tore
+
 //console.log("works");
 
 const hamburger = document.querySelector("#hamburger");
