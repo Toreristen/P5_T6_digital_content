@@ -41,13 +41,9 @@ closeIcon.addEventListener("click", toggleMenu);
 
 
 
-
-
-
-
-
+//Pensum kode der mangler:
 
 let array = ["hej", "med", "dig"];
 for (let i = 0; i < array.length; i++) {
-
+    console.log(array[i]);
 }
