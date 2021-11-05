@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 
 function toggleMenu() {
-    hamburger;
+    //hamburger;
     //console.log("function works")
     
     if (menu.style.visibility === "hidden") {
