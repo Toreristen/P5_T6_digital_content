@@ -8,27 +8,46 @@
     <title>Retshjælpen Fyns Venner</title>
     <link rel="stylesheet" href="../css/project.css">
     <script src="https://kit.fontawesome.com/bd8605f5df.js" crossorigin="anonymous"></script>
+    <script src="../javascript/tore.js" defer></script>
 </head>
 
 <body>
     <!-- ---------------Header----------------- -->
 
     <nav class="nav">
-        <ol class="nav__list">
-            <li class="nav__list__item">
-                <a class="nav__icon" href=""><i class="fas fa-bars"></i></a>
-            </li>
-            <li class="nav__list__item">
-                <a class="nav__icon" href="../subpages/payment.html">
-                    <div class="nav__btn">
-                        støt
-                    </div>
-                </a>
-            </li>
-            <li class="nav__list__item">
-                <a class="nav__icon" href="../index.html"><i class="fas fa-home"></i></a>
-            </li>
-        </ol>
+
+        <div class="nav__list-container">
+
+            <img class="nav__list-img" src="../images/logo_med_skrift_dark.png" alt="logo">
+
+            <ul class="nav__list">
+                <li class="nav__list-item"><a class="nav__list-a" href="../subpages/payment.html">Støt</a></li>
+                <li class="nav__list-item"><a class="nav__list-a" href="../index.html">Om os</a></li>
+                <li class="nav__list-item"><a class="nav__list-a" href="subpages/projects.html">Vores Arbejde</a></li>
+                <li class="nav__list-item"><a class="nav__list-a" href="https://www.retshjaelpenfyn.dk/">Retshjælpen Fyn</a></li>
+                <li class="nav__list-item nav__list-item--bottom"><a class="nav__list-a nav__list-a--bottom" href="#">Kontakt os</a></li>
+            </ul>
+        </div>
+
+        <div class="nav__navbar">
+            <ol class="nav__bar">
+                <li class="nav__bar-item">
+                    <a id="hamburger" class="nav__icon" ><i class="fas fa-bars"></i></a>
+                    <a class="nav__icon2"><i class="fas fa-times"></i></a>
+                </li>
+                <li class="nav__bar-item">
+                    <a class="nav__icon" href="../subpages/payment.html">
+                        <div class="nav__btn">
+                            støt
+                        </div>
+                    </a>
+                </li>
+                <li class="nav__bar-item">
+                    <a class="nav__icon" href="../index.html"><i class="fas fa-home"></i></a>
+                </li>
+           </ol>
+        </div>
+        
     </nav>
 
     <header>
